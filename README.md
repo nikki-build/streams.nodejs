@@ -255,7 +255,7 @@ All events are delivered through the callback passed to `createDevice()`.
 ## Example
 
 ```ts
-import { SDK } from "@nikki-build/streams";
+import { SDK } from "nikki.streams";
 
 SDK.initialize("demo-session");
 
