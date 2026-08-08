@@ -1,4 +1,4 @@
-# @nikki-build/streams
+# nikki.streams
 
 Turn your Android phone into a programmable IoT device.
 
@@ -62,7 +62,7 @@ Happy building! 🚀
 ## Installation
 
 ```bash
-npm install @nikki-build/streams
+npm install nikki.streams
 ```
 
 ---
@@ -72,7 +72,7 @@ npm install @nikki-build/streams
 A session ID must be initialized once before creating devices.
 
 ```ts
-import { SDK } from "@nikki-build/streams";
+import { SDK } from "nikki.streams";
 
 SDK.initialize("my-session-id");
 ```
